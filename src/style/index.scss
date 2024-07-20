@@ -1,0 +1,16 @@
+@import './mixin.scss'; 
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  width: 50%;
+  margin: auto
+}
+
+.content {
+  @include border-radius(6px);
+  @include padding(10px, 10px, 10px, 10px);
+}

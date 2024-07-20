@@ -1,4 +1,4 @@
-import styles from '../../styles/todo.module.scss'
+import styles from '../../style/todo.module.scss'
 
 interface ButtonProps {
   handleRemove: (id: number) => void

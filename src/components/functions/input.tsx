@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from '../../styles/header.module.scss'
+import styles from '../../style/header.module.scss'
 
 interface InputProps {
   handleChecked: (id: number, completed: boolean) => void

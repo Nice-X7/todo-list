@@ -3,7 +3,7 @@ import { Check } from "../functions/Check";
 import { useTypedSelector } from "../hooks";
 import { TodoTypes } from "../Types/Types";
 import { User } from "../Types/Types";
-import styles from '../../styles/todo.module.scss'
+import styles from '../../style/todo.module.scss'
 
 interface TodoProps {
   handleChecked: (id: number, completed: boolean) => void
